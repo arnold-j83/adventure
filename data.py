@@ -4,3 +4,10 @@ locations = {
     (1, 0): 'park',
     (1, 1): 'market',
 }
+
+locations_extra = {
+    'house': 'welcome home',
+    'lake': 'not for swimming',
+    'park': 'have fun',
+    'market': 'whats on offer today'
+}
