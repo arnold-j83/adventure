@@ -6,8 +6,15 @@ locations = {
 }
 
 locations_extra = {
-    'house': 'welcome home',
-    'lake': 'not for swimming',
-    'park': 'have fun',
-    'market': 'whats on offer today'
+    'house': 'dont forget your:' ,
+    'lake': 'you can pick up: ',
+    'park': 'you can pick up:',
+    'market': 'whats on offer today?'
+}
+
+objects_in_locations = {
+    'house': {'keys', 'wallet', 'hat'},
+    'lake': {'boat', 'bird'},
+    'park': {'litter', 'bicycle'},
+    'market': {'bread', 'cheese'}
 }
